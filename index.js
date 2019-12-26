@@ -38,7 +38,6 @@ addBtn.addEventListener("click", e => {
     number2: secondInput.value
   };
 
-  localStorage.setItem("numbers", JSON.stringify(numObject));
   const addition = sum(
     parseInt(numObject.number1, 10),
     parseInt(numObject.number2, 10)
@@ -54,7 +53,6 @@ subtractBtn.addEventListener("click", e => {
     number2: secondInput.value
   };
 
-  localStorage.setItem("numbers", JSON.stringify(numObject));
   const subtraction = subtract(
     parseInt(numObject.number1, 10),
     parseInt(numObject.number2, 10)
@@ -70,7 +68,6 @@ multiplyBtn.addEventListener("click", e => {
     number2: secondInput.value
   };
 
-  localStorage.setItem("numbers", JSON.stringify(numObject));
   const multiplication = multiply(
     parseInt(numObject.number1, 10),
     parseInt(numObject.number2, 10)
@@ -86,7 +83,6 @@ divideBtn.addEventListener("click", e => {
     number2: secondInput.value
   };
 
-  localStorage.setItem("numbers", JSON.stringify(numObject));
   const division = divide(
     parseInt(numObject.number1, 10),
     parseInt(numObject.number2, 10)
