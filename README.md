@@ -1,1 +1,2 @@
-# A-simple-calculator
+# A-simple-calculator 
+Implemented with HTML, CSS and JavaScript
