@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+    <h1>A Simple Calculator</h1>
     <div class="main-container">
-      <h1>A Simple Calculator</h1>
-      <div class="output-area"></div>
-      <div class="input-container">
-        <input class="input-area input1" type="number" />
-        <input class="input-area input2" type="number" />
+      <div class="output-container">
+        <div class="output-area2"></div>
+        <br />
+        <div class="output-area"></div>
       </div>
-      <div class="button-container">
-        <input class="button-input add-button" type="button" value="Add" />
-        <input
-          class="button-input subtract-button"
-          type="button"
-          value="Subtract"
-        />
-        <input
-          class="button-input multiply-button"
-          type="button"
-          value="Multiply"
-        />
-        <input
-          class="button-input divide-button"
-          type="button"
-          value="Divide"
-        />
-      </div>
+
+      <input class="numeric-key one" type="button" value="1" />
+      <input class="numeric-key two" type="button" value="2" />
+      <input class="numeric-key three" type="button" value="3" />
+      <input class="numeric-key four" type="button" value="4" />
+      <input class="numeric-key five" type="button" value="5" />
+      <input class="numeric-key six" type="button" value="6" />
+      <input class="numeric-key seven" type="button" value="7" />
+      <input class="numeric-key eight" type="button" value="8" />
+      <input class="numeric-key nine" type="button" value="9" />
+      <input class="numeric-key zero" type="button" value="0" />
+      <input class="numeric-key decimal" type="button" value="." />
+
+      <input class="button-input add" type="button" value="+" />
+      <input class="button-input subtract" type="button" value="−" />
+      <input class="button-input multiply" type="button" value="x" />
+      <input class="button-input divide" type="button" value="/" />
+      <input class="button-input equal" type="button" value="=" />
+      <input class="button-input clear" type="button" value="Clear" />
+      <input class="button-input delete" type="button" value="Del" />
     </div>
 
     <script src="index.js"></script>
